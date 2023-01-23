@@ -1,0 +1,30 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Head from '../components/Head.astro';
+
+import '../styles/global.css';
+---
+
+<html lang="en">
+  <Head path="/" description="Free, and reliable way to distribute Helm Charts on the cloud." />
+  <body class="root">
+    <Navbar />
+    <div class="grid grid-cols-1 max-lg:mt-4 lg:place-items-center h-[72vh] max-md:py-3">
+      <div>
+        <h1
+          class="text-4xl lg:text-7xl tracking-tight max-w-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-indigo-600"
+        >
+          Distribute Helm Charts on the cloud
+        </h1>
+        <h2 class="text-lg lg:text-2xl mt-6 max-w-2xl break-words tracking-tight">
+          Hosting Helm charts is hard, why not make it easier? We bring robust tools to help you distribute Helm Charts
+          easily with a single button click.
+        </h2>
+        <h2 class="text-lg lg:text-2xl mt-6 max-w-2xl break-words tracking-tight">
+          charted-server is currently being in active development. This page will get updated with a public beta around
+          Q1 or Q2 of this year. Stay tuned!
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
