@@ -140,19 +140,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/vercel@npm:3.1.2":
-  version: 3.1.2
-  resolution: "@astrojs/vercel@npm:3.1.2"
+"@astrojs/vercel@npm:3.2.1":
+  version: 3.2.1
+  resolution: "@astrojs/vercel@npm:3.2.1"
   dependencies:
-    "@astrojs/webapi": ^2.0.0
+    "@astrojs/webapi": ^2.1.0
     "@vercel/analytics": ^0.1.8
     "@vercel/nft": ^0.22.1
     fast-glob: ^3.2.11
     set-cookie-parser: ^2.5.1
     web-vitals: ^3.1.1
   peerDependencies:
-    astro: ^2.0.13
-  checksum: fdb9f4e95a58fb5e85c2143b35d4352cad5503907009e90a5fe3a1f065c917608a06f30c7662b5d2c49c08c460078f4c99a8fa91d484a0b72ccdc93ae5a17f81
+    astro: ^2.1.3
+  checksum: 2c472a13e0263d1eef47144f491d65427ebdfbe223cae6e9de7bd91ca1955f0415a649b1777c8ce6ea7f1b1d86b3cf71ae0d453fa9b9866af806a41cd23792e0
   languageName: node
   linkType: hard
 
@@ -162,6 +162,15 @@ __metadata:
   dependencies:
     undici: ^5.14.0
   checksum: 4336492bb211e3289ac438dab2eb9a06cfde47764ecfc8aa50ea3416636a0013d1192e5637bd112c00f3a88af5543ffc084e650348017a9b263b4fdd8a46deca
+  languageName: node
+  linkType: hard
+
+"@astrojs/webapi@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@astrojs/webapi@npm:2.1.0"
+  dependencies:
+    undici: 5.20.0
+  checksum: 49e398896c38ac630700262a6d88dabd974dbe4b3444f1e9eb6323033a3614eaa46d7f3748f08530c7d9f724d9170940110568cc14958a302652c21efd97ea55
   languageName: node
   linkType: hard
 
@@ -473,7 +482,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.0
     "@astrojs/tailwind": 3.0.1
-    "@astrojs/vercel": 3.1.2
+    "@astrojs/vercel": 3.2.1
     "@augu/eslint-config": 4.0.1
     "@augu/tsconfig": 1.1.1
     "@fontsource/cantarell": 4.5.10
@@ -7232,6 +7241,15 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"undici@npm:5.20.0":
+  version: 5.20.0
+  resolution: "undici@npm:5.20.0"
+  dependencies:
+    busboy: ^1.6.0
+  checksum: 25412a785b2bd0b12f0bb0ec47ef00aa7a611ca0e570cb7af97cffe6a42e0d78e4b15190363a43771e9002defc3c6647c1b2d52201b3f64e2196819db4d150d3
   languageName: node
   linkType: hard
 
